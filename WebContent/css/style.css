@@ -1,0 +1,48 @@
+/**
+ * Style.css
+ *
+ * Put main css here.
+ *
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Lakki+Reddy);
+
+* {
+    font-family: 'Lakki Reddy', cursive;
+}
+
+body {
+    height: 100vh;
+    background-image: url("../img/cow2.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+#mainbg {
+    background-image: url("../img/cow.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header {
+    margin-bottom: 10vh;
+}
+
+.add-btn {
+    margin-top: 10vh;
+}
+
+.btn-default {
+    margin-top: 5vh;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: none;
+    }
+
+    #mainbg {
+        background-image: none;
+    }
+}
