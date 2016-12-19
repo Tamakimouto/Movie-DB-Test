@@ -1,4 +1,4 @@
-package edu.uga.cs4300.objectlayer;
+package objectlayer;
 
 /**
   * Movie

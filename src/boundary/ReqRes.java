@@ -1,4 +1,4 @@
-package edu.uga.cs4300.boundary;
+package boundary;
 
 import java.io.IOException;
 import java.io.Writer;
@@ -25,8 +25,9 @@ import freemarker.template.Template;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateExceptionHandler;
 import freemarker.template.TemplateNotFoundException;
-import edu.uga.cs4300.logiclayer.*;
-import edu.uga.cs4300.objectlayer.*;
+
+import logiclayer.*;
+import objectlayer.*;
 
 /**
  * Servlet implementation class MyServlet

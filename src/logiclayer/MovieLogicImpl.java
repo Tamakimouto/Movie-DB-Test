@@ -1,4 +1,4 @@
-package edu.uga.cs4300.logiclayer;
+package logiclayer;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import edu.uga.cs4300.persistlayer.MoviePersistImpl;
+import persistlayer.MoviePersistImpl;
 
 /**
  * MovieLogicImpl

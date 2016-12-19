@@ -1,4 +1,4 @@
-package edu.uga.cs4300.persistlayer;
+package persistlayer;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

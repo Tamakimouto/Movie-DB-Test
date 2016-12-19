@@ -1,4 +1,4 @@
-package edu.uga.cs4300.persistlayer;
+package persistlayer;
 
 public abstract class DbAccessConfiguration {
 	public static final String DB_DRIVE_NAME = "com.mysql.jdbc.Driver";
